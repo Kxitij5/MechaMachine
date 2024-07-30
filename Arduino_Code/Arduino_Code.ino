@@ -68,7 +68,7 @@ void loop() {
 }
 
 void getData(){
-  // input from serial communication will be of this pattern:
+// input from serial communication will be of this structure:
 //  [startMarker, x_coordinate, y_coordinate, arm_motor, fire, endMarker]
 // startMarker  -> this variable indicates the start of the data being sent by the python code.
 // x_coordinate -> this indicates the x coordinates of the face being sent by the python code.
@@ -76,7 +76,7 @@ void getData(){
 // arm_motor    -> this indicates whether MechaMachine should be armed or not
 // fire         -> this indicates whether MechaMachine should shoot or not
 // endMarker -> this is the end marker of the data being sent by the computer.
-//  com.Get(input_buffer);
+
 if (Serial.available() > 0)
   {
     data_rcvd = true;
@@ -95,9 +95,6 @@ if (Serial.available() > 0)
                 input_buffer[5] = Serial.parseInt();
         
     }
-//  if(input_buffer[0] == startMarker && input_buffer[5] == endMarker){
-//    data_rcvd = true;
-//    }
   }  else{
     data_rcvd = false;
     }
@@ -108,7 +105,6 @@ if (Serial.available() > 0)
 
 void track_face(){
   int face_x, face_y;
-//  check if the conversion of bytes to int happens automatically or change the variable face_x and face_y to byte aswell and test out again!!
   face_x = input_buffer[1];
   face_y = input_buffer[2];
   // if the servo degree is outside its range of the rectangle perimeter of 30 pixels
