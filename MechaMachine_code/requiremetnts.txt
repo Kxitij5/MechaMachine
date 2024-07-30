@@ -1,4 +1,4 @@
 opencv-python
 cvzone
 pyserial
-
+torch
