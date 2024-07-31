@@ -7,9 +7,7 @@ A face tracking turret which tracks the faces of the people and aims for headsho
 ## Table Of Content
 - [Installation](#installation)
 - [Usage](#usage)
-- [Custom Model Training](#custommodeltraining)
 - [Contributing](#contributing)
-- [License](#license)
 
 
 ## Installation
@@ -54,9 +52,67 @@ git clone https://github.com/Kxitij5/MechaMachine.git
 cd MechaMachine
 ```
 ### Install Dependencies 
+To install the python packages:
 ```bash
+cd /MechaMachine_code
 pip install -r requirements.txt
 ```
+
+## Usage
+The instructions to use the MechaMachine project:
+### Connecting the Hardware:
+Refer the link to the [Hackster Project Website](have to give the link yet) to get the schematics and connections.
+
+### Running the MechaMachine:
+Connect the Arduino to the Host PC and change the com port in the code.
+#### Uploading the Arduino Code:
+- Go to MechaMachine_code directory.
+- Open the Arduino_Code in the Arduino IDE.
+- Upload the code to appropriate board.
+#### To run the real-time version:
+```bash
+cd MechaMachine_code/
+python MechaMachine.py
+```
+#### To run the trained version:
+- Train your desired custom [YOLOv5]( add yolov5 colab link)
+- Download the model 
+- Load it in the Trained_MechaMachine.py line number 6
+- Then do the following.
+```bash
+cd MechaMachine_code/
+python Trained_MechaMachine.py
+```
+
+## Contributing
+Follow these steps to contribute to [MechaMachine](https://github.com/Kxitij5/MechaMachine)
+
+### Fork the Repository
+Fork the repository on GitHub and clone your fork:
+```bash
+git clone https://github.com/your-username/MechaMachine.git
+cd MechaMachine
+```
+
+### Create a Branch
+Create a new branch for your feature or bugfix:
+```bash
+git checkout -b feature-branch
+```
+
+### Commit Changes 
+Commit your changes with a descriptive commit message:
+```bash
+git commit -m "Add new feature"
+```
+### Push to the Branch
+Push your changes to your fork:
+```bash
+git push origin feature-branch
+```
+### Open a Pull Request
+Open a pull request on GitHub to merge your changes into the [MechaMachine](https://github.com/Kxitij5/MechaMachine) Repository.
+
 
 
 
