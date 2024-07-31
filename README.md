@@ -75,7 +75,7 @@ cd MechaMachine_code/
 python MechaMachine.py
 ```
 #### To run the trained version:
-- Train your desired custom [YOLOv5 Model].(https://colab.research.google.com/github/ultralytics/yolov5/blob/master/tutorial.ipynb)
+- Train your desired custom [YOLOv5 Model](https://colab.research.google.com/github/ultralytics/yolov5/blob/master/tutorial.ipynb).
 - Download the model.
 - Load it in the Trained_MechaMachine.py line number 6.
 - Then do the following:
