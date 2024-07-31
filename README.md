@@ -7,6 +7,6 @@ A face tracking turret which tracks the faces of the people and aims for headsho
 ## Table Of Content
 - [Installation](#installation)
 - [Usage](#usage)
-- [Custom Model Training](#custom model training)
+- [Custom Model Training](#custommodeltraining)
 - [Contributing](#contributing)
 - [License](#license)
