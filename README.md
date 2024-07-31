@@ -60,7 +60,7 @@ pip install -r requirements.txt
 
 ## Usage
 The instructions to use the MechaMachine project:
-### Connecting the Hardware:
+### Hardware Connections and Schematics:
 Refer the link to the [Hackster Project Website](have to give the link yet) to get the schematics and connections.
 
 ### Running the MechaMachine:
