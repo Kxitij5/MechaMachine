@@ -34,16 +34,16 @@ Ensure the following tools and hardware and software requirements:
 #### Tools and Fabrication Materials:
 - Soldering Iron and wire.
 - Heat Shrink Tubings.
-- Screw Driver 
+- Screw Driver.
 - M2, M2.5, M5 screws.
 - Digital Multimeter.
 - 3D Printer.
 
 #### Software Requirements:
 - Preferred Choice of Code Editor.
-- Arduino IDE
-- Git
-- Python 3.7+
+- Arduino IDE.
+- Git.
+- Python 3.7+.
 
 ### Clone the Repository 
 Clone the repository to your local machine:
@@ -75,17 +75,17 @@ cd MechaMachine_code/
 python MechaMachine.py
 ```
 #### To run the trained version:
-- Train your desired custom [YOLOv5]( add yolov5 colab link)
-- Download the model 
-- Load it in the Trained_MechaMachine.py line number 6
-- Then do the following.
+- Train your desired custom [YOLOv5 Model].(https://colab.research.google.com/github/ultralytics/yolov5/blob/master/tutorial.ipynb)
+- Download the model.
+- Load it in the Trained_MechaMachine.py line number 6.
+- Then do the following:
 ```bash
 cd MechaMachine_code/
 python Trained_MechaMachine.py
 ```
 
 ## Contributing
-Follow these steps to contribute to [MechaMachine](https://github.com/Kxitij5/MechaMachine)
+Follow these steps to contribute to [MechaMachine](https://github.com/Kxitij5/MechaMachine).
 
 ### Fork the Repository
 Fork the repository on GitHub and clone your fork:
