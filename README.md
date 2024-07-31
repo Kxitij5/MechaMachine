@@ -52,7 +52,7 @@ Clone the repository to your local machine:
 ```bash
 git clone https://github.com/Kxitij5/MechaMachine.git
 cd MechaMachine
-bash```
+```bash
 
 
 
