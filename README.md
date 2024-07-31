@@ -14,7 +14,7 @@ A face tracking turret which tracks the faces of the people and aims for headsho
 Follow the steps given below to setup this project on your machine/system.
 
 ### Prerequisites 
-Ensure the following tools and hardware and software requirements:
+Ensure the following hardware, tools and software requirements:
 
 #### Hardware
 - 3D Print the printables given in the cad design directory.
