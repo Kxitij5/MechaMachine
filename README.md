@@ -11,7 +11,7 @@ A face tracking turret which tracks the faces of the people and aims for headsho
 
 
 ## Installation
-Follow the sreps given below to setup this project on your machine/system.
+Follow the steps given below to setup this project on your machine/system.
 
 ### Prerequisites 
 Ensure the following tools and hardware and software requirements:
