@@ -52,7 +52,11 @@ Clone the repository to your local machine:
 ```bash
 git clone https://github.com/Kxitij5/MechaMachine.git
 cd MechaMachine
+```
+### Install Dependencies 
 ```bash
+pip install -r requirements.txt
+```
 
 
 
